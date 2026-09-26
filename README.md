@@ -2,7 +2,7 @@
 
 PIKO is the new model in this benchmark. It predicts the two-span web
 (T1, T2, ωu, ω1, ωr) over 256 samples from a 32-sample history, the future torques and the measured roll radii.
-It has three layers. Each is a separate switch in the code (`r2r_nn/bench/piko.py`):
+It has three layers. Each is a separate switch in the code (`piko/bench/piko.py`):
 
 | layer | what it is | trained how | used for |
 |---|---|---|---|
